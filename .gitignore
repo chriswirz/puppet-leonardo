@@ -1,0 +1,7 @@
+profile/*
+chrome-cdp/*
+*.exe
+config.json
+.puppet-leonardo-tunnel-session
+tasks.json
+puppet-leonardo.exe~

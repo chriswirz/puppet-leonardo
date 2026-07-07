@@ -1,0 +1,37 @@
+{
+  "port": 8080,
+  "headless": true,
+  "default_size": "16:9",
+  "profile_dir": "profile",
+  "step_delay_ms": 0,
+  "debug": false,
+  "cdp_url": "",
+  "tasks_file": "tasks.json",
+  "queue_depth": 100,
+  "clear_dir_on_startup": "",
+  "leonardo": {
+    "email": "your-leonardo-email@example.com",
+    "password": "your-leonardo-password"
+  },
+  "mcp": {
+    "instructions": "",
+    "auth_token": "",
+    "allowed_origins": ["http://127.0.0.1", "http://localhost"],
+    "allowed_headers": [],
+    "allow_private_network": true,
+    "legacy_compatibility": true,
+    "session_timeout_seconds": 7200,
+    "generate_wait_seconds": 45
+  },
+  "tunnel": {
+    "enabled": false,
+    "server_url": "https://tunnel.example.com",
+    "api_key": "",
+    "api_key_env": "TUNNEL_API_KEY",
+    "subdomain": "",
+    "session_id": "",
+    "session_file": ".puppet-leonardo-tunnel-session",
+    "only": false,
+    "client_info": ""
+  }
+}
